@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baguncinha fdp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="script.js">
+        <h1>Formulário de escolha de curso</h1>
+        <label id="title" for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+        <label id="title" for="email">E-mail:</label>
+        <input type="text" name="email" id="email">
+        <br><br>
+        <label id="title" for="telefone">Telefone: </label>
+        <input type="text" name="telefone" id="telefone">
+        <br><br>
+        <label id="title" for="sexo">Sexo: </label>
+        <input type="radio" name="sexo" id="homem"> 
+        <label id="sexo" for="homem">Homem</label>
+        <input type="radio" name="sexo" id="mulher">
+        <label id="sexo" for="mulher">Mulher</label>
+        <br><br>
+        <label id="title" for="curso">Escolha um curso:</label>
+        <select name="curso" id="curso">
+            <option value="informatica">Informática pra mercado de trabalho</option> 
+            <option value="manutcomput">Manutenção de Computadores</option>
+            <option value="devweb">Desenvolvimento Web</option>
+            <option value="trafego">Tráfego Pago e Marketing Digital</option>
+        </select>
+        <br><br>
+        <label id="title" for="turno">Turno: </label>
+        <input type="checkbox" name="matutino" id="matutino"
+        value="Matutino"> 
+        <label id="sexo" for="matutino">Matutino</label>
+        <input type="checkbox" name="vespertino" 
+        id="vespertino">
+        <label id="sexo" for="vespertino">Vespertino</label>
+        <br><br>
+        <label id="title" for="modalidade">Modalidade:</label>
+        <input type="checkbox" name="EAD" id="EAD">
+        <label id="sexo" for="EAD">EAD</label>
+        <input type="checkbox" name="presencial" id="presencial">
+        <label id="sexo" for="presencial">Presencial</label>
+        <br><br>
+        <label id="title" for="obs">Observações: </label>
+        <input type="text">
+        <br><br>
+        <label for="foto">Foto:</label>
+        <input type="file">
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>    
+    <script src="script.js"></script>
+</body>
+</html>

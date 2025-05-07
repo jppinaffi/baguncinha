@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* PARA DEIXAR AS DIVS UMA EMBAIXO DA OUTRA
+    AO ACABAR O ESPACO NA PAGINA */
+    justify-content: center;
+  }
+  .signo {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .signo img {
+    width: 100px;
+    height: 100px;
+  }
+  .signo a {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0077cc;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  .signo a:hover {
+    text-decoration: underline;
+  }
