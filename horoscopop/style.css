@@ -6,7 +6,7 @@ body {
   .container {
     display: flex;
     flex-wrap: wrap; /* PARA DEIXAR AS DIVS UMA EMBAIXO DA OUTRA
-    AO ACABAR O ESPACO NA PAGINA */
+    QND ACABAR O ESPACO NA PAGINA */
     justify-content: center;
   }
   .signo {
@@ -33,3 +33,6 @@ body {
   .signo a:hover {
     text-decoration: underline;
   }
+a{
+  font: normal 1.5em Arial, sans-serif;
+}
